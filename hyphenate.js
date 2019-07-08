@@ -16,6 +16,12 @@ else {
     else if(lang == 'de') {
         var hyphenate = createHyphenator(hyphenationPatternsDe);
     }
+    else if(lang == 'fr') {
+        var hyphenate = createHyphenator(hyphenationPatternsFr);
+    }
+    else if(lang == 'it') {
+        var hyphenate = createHyphenator(hyphenationPatternsIt);
+    }
 }
 
 console.log(hyphenate);
