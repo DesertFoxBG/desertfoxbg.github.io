@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        <div id="hyphenate" lang="bg"></div>
 
         <p>Известен факт е, че читателя обръща внимание на съдържанието, което чете, а не на оформлението му. Свойството на Lorem Ipsum е, че до голяма степен има нормално разпределение на буквите и се чете по-лесно, за разлика от нормален текст на английски език като "Това е съдържание, това е съдържание". Много системи за публикуване и редактори на Уеб страници използват Lorem Ipsum като примерен текстов модел "по подразбиране", поради което при търсене на фразата "lorem ipsum" в Интернет ще бъдат открити много сайтове в процес на разработка. Някой от тези сайтове биват променяни с времето, а други по случайност или нарочно(за забавление и пр.) биват оставяни в този си незавършен вид.</p>
     
@@ -39,32 +40,6 @@
         <script src="https://desertfoxbg.github.io/patterns/it.js"></script>
         <script src="https://desertfoxbg.github.io/patterns/fr.js"></script>
         <script src="https://desertfoxbg.github.io/hyphen.js"></script>
-    
-        <script type="text/javascript">
-        var url = window.location.href + '/#/' + 'de';
-        console.log(url);
-    
-        if(url.includes('/bg')) {
-            var hyphenate = createHyphenator(hyphenationPatternsBg);
-        }
-        else if(url.includes('/en')) {
-            var hyphenate = createHyphenator(hyphenationPatternsEnGb);
-        }
-        else if(url.includes('/de')) {
-            var hyphenate = createHyphenator(hyphenationPatternsDe);
-        }
-        else if(url.includes('/fr')) {
-            var hyphenate = createHyphenator(hyphenationPatternsFr);
-        }
-        else if(url.includes('/it')) {
-            var hyphenate = createHyphenator(hyphenationPatternsIt);
-        }
-
-        console.log(hyphenate);
-        Array.prototype.slice.call(document.getElementsByTagName('p'))
-            .forEach(function(el){
-                el.innerHTML = hyphenate(el.innerHTML);
-            });
-        </script>
+        <script src="./hyphenate.js"></script>
     </body>
 </html>

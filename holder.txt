@@ -1,0 +1,26 @@
+<script type="text/javascript">
+        var url = window.location.href + '/#/' + 'de';
+        console.log(url);
+    
+        if(url.includes('/bg')) {
+            var hyphenate = createHyphenator(hyphenationPatternsBg);
+        }
+        else if(url.includes('/en')) {
+            var hyphenate = createHyphenator(hyphenationPatternsEnGb);
+        }
+        else if(url.includes('/de')) {
+            var hyphenate = createHyphenator(hyphenationPatternsDe);
+        }
+        else if(url.includes('/fr')) {
+            var hyphenate = createHyphenator(hyphenationPatternsFr);
+        }
+        else if(url.includes('/it')) {
+            var hyphenate = createHyphenator(hyphenationPatternsIt);
+        }
+
+        console.log(hyphenate);
+        Array.prototype.slice.call(document.getElementsByTagName('p'))
+            .forEach(function(el){
+                el.innerHTML = hyphenate(el.innerHTML);
+            });
+        </script>
