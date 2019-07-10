@@ -22,6 +22,9 @@ else {
     else if(lang == 'it') {
         var hyphenate = createHyphenator(hyphenationPatternsIt);
     }
+    else if(lang == 'ru') {
+        var hyphenate = createHyphenator(hyphenationPatternsRu);
+    }
 }
 
 console.log(hyphenate);
