@@ -20,30 +20,23 @@ else {
 
     if(lang == 'en') {
         var hyphenate = createHyphenator(hyphenationPatternsEnGb);
-        pattern = patterns.includes('/en-gb.js');
     }
     else if(lang == 'bg') {
         var hyphenate = createHyphenator(hyphenationPatternsBg);
-        pattern = patterns.find(p => p.includes('/bg.js'));
     }
     else if(lang == 'de') {
         var hyphenate = createHyphenator(hyphenationPatternsDe);
-        pattern = patterns.includes('/de.js');
     }
     else if(lang == 'fr') {
         var hyphenate = createHyphenator(hyphenationPatternsFr);
-        pattern = patterns.find(p => p.includes('/fr.js'));
     }
     else if(lang == 'it') {
         var hyphenate = createHyphenator(hyphenationPatternsIt);
-        pattern = patterns.find(p => p.includes('/it.js'));
     }
     else if(lang == 'ru') {
         var hyphenate = createHyphenator(hyphenationPatternsRu);
-        pattern = patterns.find(p => p.includes('/ru.js'));
     }
 }
-console.log(pattern);
 
 console.log(hyphenate);
 Array.prototype.slice.call(document.getElementsByTagName('p'))

@@ -1,26 +1,61 @@
-<script type="text/javascript">
-        var url = window.location.href + '/#/' + 'de';
-        console.log(url);
-    
-        if(url.includes('/bg')) {
-            var hyphenate = createHyphenator(hyphenationPatternsBg);
-        }
-        else if(url.includes('/en')) {
-            var hyphenate = createHyphenator(hyphenationPatternsEnGb);
-        }
-        else if(url.includes('/de')) {
-            var hyphenate = createHyphenator(hyphenationPatternsDe);
-        }
-        else if(url.includes('/fr')) {
-            var hyphenate = createHyphenator(hyphenationPatternsFr);
-        }
-        else if(url.includes('/it')) {
-            var hyphenate = createHyphenator(hyphenationPatternsIt);
-        }
+// const en = './patterns/en-gb';
+// const bg = './patterns/bg';
+// const de = './patterns/de';
+// const fr = './patterns/fr';
+// const it = './patterns/it';
+// const ru = './patterns/ru';
+// const hyph = './hyphen'
 
-        console.log(hyphenate);
-        Array.prototype.slice.call(document.getElementsByTagName('p'))
-            .forEach(function(el){
-                el.innerHTML = hyphenate(el.innerHTML);
-            });
-        </script>
+// define([bg, hyph], function (hyphenate, bgm) {
+//     require(bgm, function(){
+//         var hyphenate = createHyphenator(hyphenationPatternsBg);
+//     });
+// });
+
+var tag = document.getElementById('hyphenate');
+console.log(tag);
+var pattern = '<div></div>';
+
+var patterns = [
+    `<script src="https://desertfoxbg.github.io/patterns/bg.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/en-gb.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/de.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/it.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/fr.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/ru.js"></script>`
+];
+
+if(!tag) {
+    console.log('no hyphenation');
+}
+else {
+    var lang = tag.getAttribute('lang');
+    console.log(lang);
+
+    if(lang == 'en') {
+        var hyphenate = createHyphenator(hyphenationPatternsEnGb);
+    }
+    else if(lang == 'bg') {
+        var hyphenate = createHyphenator(hyphenationPatternsBg);
+    }
+    else if(lang == 'de') {
+        var hyphenate = createHyphenator(hyphenationPatternsDe);
+    }
+    else if(lang == 'fr') {
+        var hyphenate = createHyphenator(hyphenationPatternsFr);
+    }
+    else if(lang == 'it') {
+        var hyphenate = createHyphenator(hyphenationPatternsIt);
+    }
+    else if(lang == 'ru') {
+        var hyphenate = createHyphenator(hyphenationPatternsRu);
+    }
+}
+
+console.log(hyphenate);
+Array.prototype.slice.call(document.getElementsByTagName('p'))
+    .forEach(function (el) {
+        el.innerHTML = hyphenate(el.innerHTML);
+    });
+
+    pattern = patterns.find(p => p.includes('/ru.js'));
