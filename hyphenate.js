@@ -24,7 +24,7 @@ else {
     }
     else if(lang == 'bg') {
         var hyphenate = createHyphenator(hyphenationPatternsBg);
-        pattern = patterns.includes('/bg.js');
+        pattern = patterns.find(p => p.includes('/bg.js'));
     }
     else if(lang == 'de') {
         var hyphenate = createHyphenator(hyphenationPatternsDe);
@@ -32,15 +32,15 @@ else {
     }
     else if(lang == 'fr') {
         var hyphenate = createHyphenator(hyphenationPatternsFr);
-        pattern = patterns.includes('/fr.js');
+        pattern = patterns.find(p => p.includes('/fr.js'));
     }
     else if(lang == 'it') {
         var hyphenate = createHyphenator(hyphenationPatternsIt);
-        pattern = patterns.includes('/it.js');
+        pattern = patterns.find(p => p.includes('/it.js'));
     }
     else if(lang == 'ru') {
         var hyphenate = createHyphenator(hyphenationPatternsRu);
-        pattern = patterns.includes('/ru.js');
+        pattern = patterns.find(p => p.includes('/ru.js'));
     }
     console.log(pattern);
 }
