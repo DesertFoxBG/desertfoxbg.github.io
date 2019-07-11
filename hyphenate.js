@@ -44,6 +44,7 @@ else {
     }
 }
 console.log(pattern);
+document.body.appendChild(pattern);
 
 console.log(hyphenate);
 Array.prototype.slice.call(document.getElementsByTagName('p'))
