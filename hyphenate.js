@@ -1,5 +1,15 @@
 var tag = document.getElementById('hyphenate');
 console.log(tag);
+
+var patterns = [
+    `<script src="https://desertfoxbg.github.io/patterns/bg.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/en-gb.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/de.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/it.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/fr.js"></script>`,
+    `<script src="https://desertfoxbg.github.io/patterns/ru.js"></script>`
+];
+
 if(!tag) {
     console.log('no hyphenation');
 }
@@ -9,22 +19,29 @@ else {
 
     if(lang == 'en') {
         var hyphenate = createHyphenator(hyphenationPatternsEnGb);
+        var pattern = patterns.includes('/en-gb.js');
     }
     else if(lang == 'bg') {
         var hyphenate = createHyphenator(hyphenationPatternsBg);
+        var pattern = patterns.includes('/bg.js');
     }
     else if(lang == 'de') {
         var hyphenate = createHyphenator(hyphenationPatternsDe);
+        var pattern = patterns.includes('/de.js');
     }
     else if(lang == 'fr') {
         var hyphenate = createHyphenator(hyphenationPatternsFr);
+        var pattern = patterns.includes('/fr.js');
     }
     else if(lang == 'it') {
         var hyphenate = createHyphenator(hyphenationPatternsIt);
+        var pattern = patterns.includes('/it.js');
     }
     else if(lang == 'ru') {
         var hyphenate = createHyphenator(hyphenationPatternsRu);
+        var pattern = patterns.includes('/ru.js');
     }
+    console.log(pattern);
 }
 
 console.log(hyphenate);
