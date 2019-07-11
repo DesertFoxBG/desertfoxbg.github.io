@@ -16,7 +16,7 @@ if(!tag) {
 else {
     var lang = tag.getAttribute('lang');
     console.log(lang);
-    var pattern;
+    var pattern = '<div></div>';
 
     if(lang == 'en') {
         var hyphenate = createHyphenator(hyphenationPatternsEnGb);
