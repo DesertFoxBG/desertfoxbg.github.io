@@ -27,7 +27,7 @@ else {
     else if (lang == 'bg') {
         pattern = patterns.find(p => p.includes('/bg.js'));
         console.log(pattern);
-        document.body.innerHTML += pattern;
+        document.head.innerHTML += pattern;
         var hyphenate = createHyphenator(hyphenationPatternsBg);
     }
     else if (lang == 'de') {
