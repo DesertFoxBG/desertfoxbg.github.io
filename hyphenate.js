@@ -1,5 +1,6 @@
 var tag = document.getElementById('hyphenate');
 console.log(tag);
+var pattern = '<div></div>';
 
 var patterns = [
     `<script src="https://desertfoxbg.github.io/patterns/bg.js"></script>`,
@@ -16,7 +17,6 @@ if(!tag) {
 else {
     var lang = tag.getAttribute('lang');
     console.log(lang);
-    var pattern = '<div></div>';
 
     if(lang == 'en') {
         var hyphenate = createHyphenator(hyphenationPatternsEnGb);
@@ -42,8 +42,8 @@ else {
         var hyphenate = createHyphenator(hyphenationPatternsRu);
         pattern = patterns.find(p => p.includes('/ru.js'));
     }
-    console.log(pattern);
 }
+console.log(pattern);
 
 console.log(hyphenate);
 Array.prototype.slice.call(document.getElementsByTagName('p'))
