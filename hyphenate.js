@@ -11,50 +11,39 @@ var patterns = [
     `<script src="https://desertfoxbg.github.io/patterns/ru.js"></script>`
 ];
 
-if (!tag) {
+if(!tag) {
     console.log('no hyphenation');
 }
 else {
     var lang = tag.getAttribute('lang');
     console.log(lang);
 
-    if (lang == 'en') {
-        pattern = patterns.includes('/en-gb.js');
-        console.log(pattern);
-        document.body.innerHTML += pattern;
+    if(lang == 'en') {
         var hyphenate = createHyphenator(hyphenationPatternsEnGb);
+        pattern = patterns.includes('/en-gb.js');
     }
-    else if (lang == 'bg') {
-        pattern = patterns.find(p => p.includes('/bg.js'));
-        console.log(pattern);
-        document.head.innerHTML += pattern;
+    else if(lang == 'bg') {
         var hyphenate = createHyphenator(hyphenationPatternsBg);
+        pattern = patterns.find(p => p.includes('/bg.js'));
     }
-    else if (lang == 'de') {
-        pattern = patterns.includes('/de.js');
-        console.log(pattern);
-        document.body.innerHTML += pattern;
+    else if(lang == 'de') {
         var hyphenate = createHyphenator(hyphenationPatternsDe);
+        pattern = patterns.includes('/de.js');
     }
-    else if (lang == 'fr') {
-        pattern = patterns.find(p => p.includes('/fr.js'));
-        console.log(pattern);
-        document.body.innerHTML += pattern;
+    else if(lang == 'fr') {
         var hyphenate = createHyphenator(hyphenationPatternsFr);
+        pattern = patterns.find(p => p.includes('/fr.js'));
     }
-    else if (lang == 'it') {
-        pattern = patterns.find(p => p.includes('/it.js'));
-        console.log(pattern);
-        document.body.innerHTML += pattern;
+    else if(lang == 'it') {
         var hyphenate = createHyphenator(hyphenationPatternsIt);
+        pattern = patterns.find(p => p.includes('/it.js'));
     }
-    else if (lang == 'ru') {
-        pattern = patterns.find(p => p.includes('/ru.js'));
-        console.log(pattern);
-        document.body.innerHTML += pattern;
+    else if(lang == 'ru') {
         var hyphenate = createHyphenator(hyphenationPatternsRu);
+        pattern = patterns.find(p => p.includes('/ru.js'));
     }
 }
+console.log(pattern);
 
 console.log(hyphenate);
 Array.prototype.slice.call(document.getElementsByTagName('p'))
