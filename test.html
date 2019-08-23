@@ -1,104 +1,71 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Test hyphen</title>
-    <meta charset="UTF-8">
-    <style>
-        body{
-            text-align: justify;
-        }
-
-        p {
-            float: left;
-            width: 15%;
-            padding: 10px;
-        }
-
-        .container {
-            margin: auto;
-            width: 100%;
-            display: block;
-        }
-    </style>
-</head>
-
+<title>simplex-noise.js test</title>
 <body>
-    <div id="hyphenate" lang="ru"></div>
+<h1>simplex-noise.js visual tests</h1>
+<script src="./simplex-noise.js"></script>
+<script>
+function visualize(title, fn) {
+  var canvas = document.createElement('canvas');
+  var s = 512;
+  canvas.width = s;
+  canvas.height = s;
+  var ctx = canvas.getContext('2d');
+  var imageData = ctx.getImageData(0, 0, s, s);
+  for (var i = 0; i < imageData.data.length; i++) {
+    var x = (fn(i % 512, ~~(i / 512)) + 1) * 128;
+    imageData.data[i * 4] = x;
+    imageData.data[i * 4 + 1] = x;
+    imageData.data[i * 4 + 2] = x;
+    imageData.data[i * 4 + 3] = 255;
+  }
+  ctx.putImageData(imageData, 0, 0);
+  var h2 = document.createElement('h2');
+  h2.innerHTML = title;
+  document.body.appendChild(h2);
+  document.body.appendChild(canvas);
+}
 
-    <div class="container">
-        <p>Известен факт е, че читателя обръща внимание на съдържанието, което чете, а не на оформлението му. Свойството
-            на Lorem Ipsum е, че до голяма степен има нормално разпределение на буквите и се чете по-лесно, за разлика
-            от нормален текст на английски език като "Това е съдържание, това е съдържание". Много системи за
-            публикуване и редактори на Уеб страници използват Lorem Ipsum като примерен текстов модел "по подразбиране",
-            поради което при търсене на фразата "lorem ipsum" в Интернет ще бъдат открити много сайтове в процес на
-            разработка. Някой от тези сайтове биват променяни с времето, а други по случайност или нарочно(за забавление
-            и пр.) биват оставяни в този си незавършен вид.</p>
+var simplex = new SimplexNoise();
+visualize('noise2D x1', function(x, y) {
+  return simplex.noise2D(x, y);
+});
+visualize('noise2D x20', function(x, y) {
+  return simplex.noise2D(x / 20, y / 20);
+});
 
-        <p>Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle
-            variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri
-            palesemente poco verosimili. Se si decide di utilizzare un passaggio del Lorem Ipsum, è bene essere certi
-            che non contenga nulla di imbarazzante. In genere, i generatori di testo segnaposto disponibili su internet
-            tendono a ripetere paragrafi predefiniti, rendendo questo il primo vero generatore automatico su intenet.
-            Infatti utilizza un dizionario di oltre 200 vocaboli latini, combinati con un insieme di modelli di
-            strutture di periodi, per generare passaggi di testo verosimili. Il testo così generato è sempre privo di
-            ripetizioni, parole imbarazzanti o fuori luogo ecc.</p>
+visualize('noise2D x256', function(x, y) {
+  return simplex.noise2D(x / 256, y / 256);
+});
 
-        <p>Maître Corbeau, sur un arbre perché,
-            Tenait en son bec un fromage.
-            Maître Renard, par l’odeur alléché,
-            Lui tint à peu près ce langage :
-            « Hé ! bonjour, Monsieur du Corbeau.
-            Que vous êtes joli ! Que vous me semblez beau !
-            Sans mentir, si votre ramage
-            Se rapporte à votre plumage,
-            Vous êtes le Phénix des hôtes de ces bois. »
-            A ces mots le Corbeau ne se sent pas de joie ;
-            Et pour montrer sa belle voix,
-            Il ouvre un large bec, laisse tomber sa proie.
-            Le Renard s’en saisit, et dit : « Mon bon Monsieur,
-            Apprenez que tout flatteur
-            Vit aux dépens de celui qui l’écoute :
-            Cette leçon vaut bien un fromage, sans doute. »
-            Le Corbeau, honteux et confus,
-            Jura, mais un peu tard, qu’on ne l’y prendrait plus.</p>
+visualize('noise3D z0 x256', function(x, y) {
+  return simplex.noise3D(x / 256, y / 256, 0);
+});
 
-        <p>Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der
-            Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt
-            und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem
-            Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo
-            diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere
-            bewusst (beeinflusst von Witz und des eigenen Geschmacks)</p>
-    </div>
+visualize('noise3D z0 x20', function(x, y) {
+  return simplex.noise3D(x / 20, y / 20, 0);
+});
 
-    <div class="container">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic
-            typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-            containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions
-            of Lorem Ipsum.</p>
+visualize('noise3D z0.01 x20', function(x, y) {
+  return simplex.noise3D(x / 20, y / 20, 0.01);
+});
 
-        <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его
-            корни
-            уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард
-            МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в
-            Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он
-            нашёл
-            неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О
-            пределах добра и зла"), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен
-            в
-            эпоху Возрождения. Первая строка Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит от одной из строк в
-            разделе 1.10.32</p>
-    </div>
+visualize('noise3D z1 x20', function(x, y) {
+  return simplex.noise3D(x / 20, y / 20, 1);
+});
 
-    <script src="https://desertfoxbg.github.io/hyphen.js"></script>
-    <script src="./hyphenate.js"></script>
-</body>
+visualize('noise4D z1 w1 x20', function(x, y) {
+  return simplex.noise4D(x / 20, y / 20, 1, 1);
+});
 
-</html>
+simplex = new SimplexNoise('seed');
+visualize('seed noise2D', function(x, y) {
+  return simplex.noise2D(x / 20, y / 20);
+});
+simplex = new SimplexNoise('seed');
+visualize('same seed noise2D', function(x, y) {
+  return simplex.noise2D(x / 20, y / 20);
+});
+simplex = new SimplexNoise('different seed');
+visualize('different seed noise2D', function(x, y) {
+  return simplex.noise2D(x / 20, y / 20);
+});
+</script>
