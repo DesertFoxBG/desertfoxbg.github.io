@@ -985,6 +985,7 @@
 /plugins/Calendar/Assets/,PossibleBotnetDir
 /wp-content/languages/plugins/,PossibleBotnetDir
 /lang/,PossibleBotnetDir
+/awstats/data/,PossibleBotnetDir
 /wp-content/themes/twentyseventeen/template-parts/footer/,PossibleBotnetDir
 /wp-content/themes/Divi/et-pagebuilder/,PossibleBotnetDir
 /wp-content/themes/advanced-newspaper-backup/images/framework/24x/,PossibleBotnetDir
@@ -1034,6 +1035,7 @@
 /kent/wp-content/themes/sketch/,PossibleBotnetDir
 /Application/Runtime/Cache/Home/,PossibleBotnetDir
 /pdfreader/fmt/v1.0.7.01/,PossibleBotnetDir
+/xiaz/,PossibleBotnetDir
 /wp-content/themes/Corsa/fonts/,PossibleBotnetDir
 /web/uploads/20190730/,PossibleBotnetDir
 /33bi/,PossibleBotnetDir
@@ -1140,7 +1142,6 @@
 /wp-content/themes/astra/languages/,PossibleBotnetDir
 /ixrtvi8z_ecbo41o-02805/,PossibleBotnetDir
 /_borders/Pages/hr0oto593o4e2_azkxl8p2-804573082009577/,PossibleBotnetDir
-/menusystemmodel003/esp/rl65kshppfvh27yk5_ys96f-24114552/,PossibleBotnetDir
 /issues/136_140/,PossibleBotnetDir
 /wp-content/jh7my-bnqb2-zxav/,PossibleBotnetDir
 /issues/151_155/,PossibleBotnetDir
@@ -1152,7 +1153,7 @@
 /cgi-bin/TIiUbNptglMlDsuV/,PossibleBotnetDir
 /FILE/pdcd2d2wpl1j3hwx2qb0_gja7tgc53t-378690263/,PossibleBotnetDir
 /cgi-bin/vo7g6fhoxdur04w3u5jj_nzw2yohdw-12898478915/,PossibleBotnetDir
-/alloldfiles.zip/zegkb671/,PossibleBotnetDir
+/wp-snapshots/5utp-5mljh-eniga/,PossibleBotnetDir
 /wp-admin/DOC/MHcAEqBDMskWKIMMzLnLyVxomhgRSF/,PossibleBotnetDir
 /wp-content/sh9b0-lq00ib2-pter/,PossibleBotnetDir
 /news/pics/20130824/,PossibleBotnetDir
