@@ -5,7 +5,6 @@
 110.154.210.67,PossibleBotnetDomain
 112.17.80.187,PossibleBotnetDomain
 180.112.53.103,PossibleBotnetDomain
-87.103.87.53,PossibleBotnetDomain
 110.18.194.228,PossibleBotnetDomain
 112.17.166.114,PossibleBotnetDomain
 182.120.217.122,PossibleBotnetDomain
@@ -19,11 +18,11 @@
 110.154.243.57,PossibleBotnetDomain
 121.173.115.172,PossibleBotnetDomain
 111.42.66.30,PossibleBotnetDomain
+61.216.29.195,PossibleBotnetDomain
 59.96.86.200,PossibleBotnetDomain
 111.43.223.128,PossibleBotnetDomain
 113.140.216.165,PossibleBotnetDomain
 113.245.210.63,PossibleBotnetDomain
-31.146.124.20,PossibleBotnetDomain
 183.158.73.102,PossibleBotnetDomain
 36.105.242.189,PossibleBotnetDomain
 59.174.98.217,PossibleBotnetDomain
@@ -39,16 +38,15 @@
 111.43.223.198,PossibleBotnetDomain
 222.242.159.200,PossibleBotnetDomain
 49.119.94.82,PossibleBotnetDomain
-110.155.3.104,PossibleBotnetDomain
 218.21.171.194,PossibleBotnetDomain
 42.235.28.148,PossibleBotnetDomain
 111.42.102.112,PossibleBotnetDomain
 176.113.161.64,PossibleBotnetDomain
-116.208.49.194,PossibleBotnetDomain
 42.231.166.233,PossibleBotnetDomain
 221.210.211.26,PossibleBotnetDomain
 223.93.171.204,PossibleBotnetDomain
 211.137.225.110,PossibleBotnetDomain
+115.193.103.48,PossibleBotnetDomain
 36.105.30.209,PossibleBotnetDomain
 111.42.67.92,PossibleBotnetDomain
 176.113.161.104,PossibleBotnetDomain
@@ -72,9 +70,7 @@
 116.114.95.222,PossibleBotnetDomain
 111.42.102.119,PossibleBotnetDomain
 106.111.139.155,PossibleBotnetDomain
-125.43.233.50,PossibleBotnetDomain
 112.17.78.146,PossibleBotnetDomain
-111.176.131.36,PossibleBotnetDomain
 111.43.223.190,PossibleBotnetDomain
 111.43.223.97,PossibleBotnetDomain
 111.42.66.4,PossibleBotnetDomain
@@ -108,7 +104,6 @@ switchnets.net,PossibleBotnetDomain
 49.117.157.196,PossibleBotnetDomain
 116.114.95.190,PossibleBotnetDomain
 49.115.202.2,PossibleBotnetDomain
-59.90.41.99,PossibleBotnetDomain
 49.89.176.236,PossibleBotnetDomain
 125.46.246.136,PossibleBotnetDomain
 116.114.95.164,PossibleBotnetDomain
@@ -144,7 +139,6 @@ switchnets.net,PossibleBotnetDomain
 110.18.194.234,PossibleBotnetDomain
 115.206.106.84,PossibleBotnetDomain
 176.113.161.53,PossibleBotnetDomain
-211.137.225.57,PossibleBotnetDomain
 111.43.223.164,PossibleBotnetDomain
 182.127.72.189,PossibleBotnetDomain
 218.21.171.236,PossibleBotnetDomain
@@ -173,6 +167,7 @@ switchnets.net,PossibleBotnetDomain
 36.105.33.145,PossibleBotnetDomain
 49.68.19.70,PossibleBotnetDomain
 180.123.25.249,PossibleBotnetDomain
+211.137.225.76,PossibleBotnetDomain
 49.68.53.213,PossibleBotnetDomain
 111.42.66.48,PossibleBotnetDomain
 112.26.160.67,PossibleBotnetDomain
@@ -201,7 +196,6 @@ www.maximili.com,PossibleBotnetDomain
 176.113.161.138,PossibleBotnetDomain
 111.42.66.45,PossibleBotnetDomain
 221.231.88.212,PossibleBotnetDomain
-49.116.97.163,PossibleBotnetDomain
 211.137.225.77,PossibleBotnetDomain
 116.114.95.89,PossibleBotnetDomain
 176.113.161.91,PossibleBotnetDomain
@@ -241,9 +235,9 @@ www.maximili.com,PossibleBotnetDomain
 218.21.170.15,PossibleBotnetDomain
 111.42.102.140,PossibleBotnetDomain
 49.115.70.28,PossibleBotnetDomain
-120.68.218.71,PossibleBotnetDomain
 116.114.95.250,PossibleBotnetDomain
 211.137.225.84,PossibleBotnetDomain
+31.146.124.137,PossibleBotnetDomain
 114.234.120.171,PossibleBotnetDomain
 222.187.139.45,PossibleBotnetDomain
 117.95.180.168,PossibleBotnetDomain
@@ -263,11 +257,9 @@ www.maximili.com,PossibleBotnetDomain
 222.74.186.132,PossibleBotnetDomain
 120.71.208.141,PossibleBotnetDomain
 49.89.223.131,PossibleBotnetDomain
-218.21.170.85,PossibleBotnetDomain
 27.12.38.250,PossibleBotnetDomain
 221.210.211.16,PossibleBotnetDomain
 114.239.102.54,PossibleBotnetDomain
-114.228.53.48,PossibleBotnetDomain
 211.137.225.56,PossibleBotnetDomain
 111.43.223.189,PossibleBotnetDomain
 180.66.151.10,PossibleBotnetDomain
@@ -327,8 +319,8 @@ www.maximili.com,PossibleBotnetDomain
 myonlinepokiesblog.com,PossibleBotnetDomain
 dabal.org,PossibleBotnetDomain
 kamasutraladies.com,PossibleBotnetDomain
+180.120.38.159,PossibleBotnetDomain
 182.222.195.145,PossibleBotnetDomain
-110.154.249.171,PossibleBotnetDomain
 58.217.44.70,PossibleBotnetDomain
 176.113.161.113,PossibleBotnetDomain
 124.67.89.238,PossibleBotnetDomain
@@ -348,7 +340,6 @@ kamasutraladies.com,PossibleBotnetDomain
 114.238.85.183,PossibleBotnetDomain
 116.114.95.10,PossibleBotnetDomain
 180.104.208.55,PossibleBotnetDomain
-180.116.232.146,PossibleBotnetDomain
 42.230.51.107,PossibleBotnetDomain
 49.82.242.29,PossibleBotnetDomain
 49.143.32.36,PossibleBotnetDomain
@@ -364,7 +355,6 @@ www.lebedyn.info,PossibleBotnetDomain
 36.109.134.239,PossibleBotnetDomain
 114.234.137.218,PossibleBotnetDomain
 218.21.171.207,PossibleBotnetDomain
-116.114.95.130,PossibleBotnetDomain
 114.239.72.58,PossibleBotnetDomain
 111.42.66.93,PossibleBotnetDomain
 211.137.225.54,PossibleBotnetDomain
@@ -408,9 +398,9 @@ graugeboren.net,PossibleBotnetDomain
 5.182.211.76,PossibleBotnetDomain
 222.142.113.226,PossibleBotnetDomain
 36.109.65.171,PossibleBotnetDomain
+222.191.160.28,PossibleBotnetDomain
 116.114.95.94,PossibleBotnetDomain
 180.123.225.72,PossibleBotnetDomain
-111.42.103.58,PossibleBotnetDomain
 36.96.204.44,PossibleBotnetDomain
 218.93.56.49,PossibleBotnetDomain
 114.234.60.147,PossibleBotnetDomain
@@ -426,7 +416,6 @@ ursreklam.com,PossibleBotnetDomain
 221.210.211.19,PossibleBotnetDomain
 36.105.21.53,PossibleBotnetDomain
 36.105.25.127,PossibleBotnetDomain
-37.232.77.124,PossibleBotnetDomain
 mosaiclantern.com,PossibleBotnetDomain
 latinovoicesmn.org,PossibleBotnetDomain
 111.42.102.146,PossibleBotnetDomain
@@ -451,7 +440,6 @@ mzadvertising.com,PossibleBotnetDomain
 116.114.95.242,PossibleBotnetDomain
 120.69.6.223,PossibleBotnetDomain
 124.67.89.36,PossibleBotnetDomain
-110.154.175.70,PossibleBotnetDomain
 116.114.95.50,PossibleBotnetDomain
 114.235.231.35,PossibleBotnetDomain
 114.235.232.20,PossibleBotnetDomain
@@ -461,7 +449,6 @@ download.assystnotes.com,PossibleBotnetDomain
 1.246.223.52,PossibleBotnetDomain
 114.238.82.87,PossibleBotnetDomain
 211.137.225.53,PossibleBotnetDomain
-49.119.92.141,PossibleBotnetDomain
 111.40.111.205,PossibleBotnetDomain
 27.31.21.65,PossibleBotnetDomain
 36.105.177.147,PossibleBotnetDomain
@@ -469,14 +456,17 @@ download.assystnotes.com,PossibleBotnetDomain
 116.114.95.24,PossibleBotnetDomain
 113.138.146.97,PossibleBotnetDomain
 49.70.174.156,PossibleBotnetDomain
+36.105.109.41,PossibleBotnetDomain
 49.89.206.108,PossibleBotnetDomain
 49.70.121.22,PossibleBotnetDomain
+120.69.117.214,PossibleBotnetDomain
 125.46.196.62,PossibleBotnetDomain
 1.246.223.6,PossibleBotnetDomain
 1.246.222.38,PossibleBotnetDomain
 1.246.223.15,PossibleBotnetDomain
 111.40.111.206,PossibleBotnetDomain
 1.246.222.160,PossibleBotnetDomain
+36.109.230.233,PossibleBotnetDomain
 175.11.194.171,PossibleBotnetDomain
 49.70.19.27,PossibleBotnetDomain
 49.115.118.201,PossibleBotnetDomain
@@ -485,7 +475,6 @@ download.assystnotes.com,PossibleBotnetDomain
 111.42.103.93,PossibleBotnetDomain
 1.246.222.138,PossibleBotnetDomain
 49.89.148.85,PossibleBotnetDomain
-182.112.9.125,PossibleBotnetDomain
 111.181.137.119,PossibleBotnetDomain
 180.115.254.58,PossibleBotnetDomain
 49.89.201.68,PossibleBotnetDomain
@@ -493,7 +482,6 @@ download.assystnotes.com,PossibleBotnetDomain
 111.170.32.228,PossibleBotnetDomain
 112.242.184.103,PossibleBotnetDomain
 121.226.237.146,PossibleBotnetDomain
-114.227.94.220,PossibleBotnetDomain
 218.93.154.254,PossibleBotnetDomain
 1.246.222.79,PossibleBotnetDomain
 218.21.170.244,PossibleBotnetDomain
@@ -525,13 +513,14 @@ www.jumos.xyz,PossibleBotnetDomain
 45.72.3.132,PossibleBotnetDomain
 185.191.246.26,PossibleBotnetDomain
 134.90.162.210,PossibleBotnetDomain
-222.83.52.92,PossibleBotnetDomain
 111.42.67.49,PossibleBotnetDomain
 182.122.26.192,PossibleBotnetDomain
+124.118.238.94,PossibleBotnetDomain
 103.59.134.58,PossibleBotnetDomain
 110.156.96.227,PossibleBotnetDomain
 111.40.100.2,PossibleBotnetDomain
 116.114.95.188,PossibleBotnetDomain
+183.156.7.216,PossibleBotnetDomain
 218.93.153.164,PossibleBotnetDomain
 117.95.203.147,PossibleBotnetDomain
 45.170.199.146,PossibleBotnetDomain
@@ -552,37 +541,33 @@ cbk.m.dodo52.com,PossibleBotnetDomain
 115.56.69.190,PossibleBotnetDomain
 124.67.89.76,PossibleBotnetDomain
 180.123.208.169,PossibleBotnetDomain
-106.110.102.3,PossibleBotnetDomain
 117.86.110.91,PossibleBotnetDomain
 namdeinvest.com,PossibleBotnetDomain
 121.233.108.216,PossibleBotnetDomain
 49.116.182.31,PossibleBotnetDomain
 221.228.159.3,PossibleBotnetDomain
-120.68.217.92,PossibleBotnetDomain
 218.21.171.45,PossibleBotnetDomain
 112.28.98.52,PossibleBotnetDomain
 fmjstorage.com,PossibleBotnetDomain
 81.10.23.139,PossibleBotnetDomain
 1.246.222.228,PossibleBotnetDomain
-36.107.172.139,PossibleBotnetDomain
 117.123.171.105,PossibleBotnetDomain
 114.226.62.226,PossibleBotnetDomain
 1.246.222.83,PossibleBotnetDomain
 49.68.55.125,PossibleBotnetDomain
+99.6.109.219,PossibleBotnetDomain
 116.114.95.174,PossibleBotnetDomain
 108.95.162.21,PossibleBotnetDomain
 121.62.22.129,PossibleBotnetDomain
 49.89.227.84,PossibleBotnetDomain
 113.25.230.119,PossibleBotnetDomain
 1.246.222.49,PossibleBotnetDomain
-114.234.68.71,PossibleBotnetDomain
 cg.qlizzie.net,PossibleBotnetDomain
 gx-10012947.file.myqcloud.com,PossibleBotnetDomain
 d.23shentu.org,PossibleBotnetDomain
 latelier.pe,PossibleBotnetDomain
 180.124.73.151,PossibleBotnetDomain
 1.246.223.130,PossibleBotnetDomain
-121.230.255.221,PossibleBotnetDomain
 180.123.240.176,PossibleBotnetDomain
 117.95.104.33,PossibleBotnetDomain
 49.70.119.31,PossibleBotnetDomain
@@ -603,7 +588,6 @@ wmi.4i7i.com,PossibleBotnetDomain
 106.110.102.195,PossibleBotnetDomain
 49.87.197.93,PossibleBotnetDomain
 1.246.222.109,PossibleBotnetDomain
-120.71.187.151,PossibleBotnetDomain
 106.110.90.215,PossibleBotnetDomain
 49.82.255.36,PossibleBotnetDomain
 124.66.48.13,PossibleBotnetDomain
@@ -626,9 +610,7 @@ www.bustysensation.ru,PossibleBotnetDomain
 103.204.122.131,PossibleBotnetDomain
 1.246.223.18,PossibleBotnetDomain
 180.104.72.95,PossibleBotnetDomain
-114.236.55.197,PossibleBotnetDomain
 1.246.223.64,PossibleBotnetDomain
-49.70.36.49,PossibleBotnetDomain
 222.74.186.136,PossibleBotnetDomain
 176.212.114.195,PossibleBotnetDomain
 180.104.233.250,PossibleBotnetDomain
@@ -641,7 +623,6 @@ vioaxctwaae1g.estrondoquest.xyz,PossibleBotnetDomain
 116.114.95.172,PossibleBotnetDomain
 1.246.223.125,PossibleBotnetDomain
 49.87.117.138,PossibleBotnetDomain
-222.106.29.166,PossibleBotnetDomain
 180.124.204.213,PossibleBotnetDomain
 www.24security.ro,PossibleBotnetDomain
 www.advisio.ro,PossibleBotnetDomain
@@ -718,7 +699,6 @@ www.maisenwenhua.cn,PossibleBotnetDomain
 slworld.info,PossibleBotnetDomain
 203.109.113.155,PossibleBotnetDomain
 www.qingshansq.com,PossibleBotnetDomain
-yojersey.ru,PossibleBotnetDomain
 dunhuangcaihui.com,PossibleBotnetDomain
 1.246.222.232,PossibleBotnetDomain
 222.184.214.204,PossibleBotnetDomain
@@ -727,7 +707,6 @@ dunhuangcaihui.com,PossibleBotnetDomain
 111.42.67.31,PossibleBotnetDomain
 122.51.164.83,PossibleBotnetDomain
 64.90.186.90,PossibleBotnetDomain
-gentlechirocenter.com,PossibleBotnetDomain
 gindnetsoft.com,PossibleBotnetDomain
 scorpiosys.com,PossibleBotnetDomain
 pastebin.com,PossibleBotnetDomain
@@ -820,6 +799,7 @@ ba3capital.com,PossibleBotnetDomain
 183.196.233.193,PossibleBotnetDomain
 106.111.145.79,PossibleBotnetDomain
 bolhomes.stringbind.info,PossibleBotnetDomain
+zaloshop.net,PossibleBotnetDomain
 crystalvision.stringbind.info,PossibleBotnetDomain
 pulsus.stringbind.info,PossibleBotnetDomain
 tisaknamajice.stringbind.info,PossibleBotnetDomain
@@ -839,7 +819,6 @@ storage.de.cloud.ovh.net,PossibleBotnetDomain
 1.246.223.3,PossibleBotnetDomain
 180.125.83.158,PossibleBotnetDomain
 121.226.224.80,PossibleBotnetDomain
-112.254.139.161,PossibleBotnetDomain
 1.246.222.153,PossibleBotnetDomain
 www.souldancing.cn,PossibleBotnetDomain
 4003.a.hostable.me,PossibleBotnetDomain
@@ -861,6 +840,7 @@ wptp.lianjiewuxian.com,PossibleBotnetDomain
 24.234.131.201,PossibleBotnetDomain
 1.246.222.237,PossibleBotnetDomain
 176.113.161.128,PossibleBotnetDomain
+121.233.117.50,PossibleBotnetDomain
 180.104.209.14,PossibleBotnetDomain
 49.89.68.212,PossibleBotnetDomain
 1.246.222.43,PossibleBotnetDomain
@@ -886,6 +866,7 @@ diazavendano.cl,PossibleBotnetDomain
 digitaldog.de,PossibleBotnetDomain
 dezcom.com,PossibleBotnetDomain
 excessgroupmy.com,PossibleBotnetDomain
+fazi.pl,PossibleBotnetDomain
 ghostdesigners.com.br,PossibleBotnetDomain
 jester.com.au,PossibleBotnetDomain
 fenoma.net,PossibleBotnetDomain
@@ -934,7 +915,6 @@ xtremeforumz.com,PossibleBotnetDomain
 zefat.nl,PossibleBotnetDomain
 prosoc.nl,PossibleBotnetDomain
 1.246.223.146,PossibleBotnetDomain
-1.246.223.54,PossibleBotnetDomain
 rdcomp.com.au,PossibleBotnetDomain
 raskovskyasociados.com.ar,PossibleBotnetDomain
 quickreachmedia.com,PossibleBotnetDomain
@@ -1004,6 +984,7 @@ wildfhs.com,PossibleBotnetDomain
 autofilings.com,PossibleBotnetDomain
 soulcastor.com,PossibleBotnetDomain
 www.lifestylestherapy.com,PossibleBotnetDomain
+gentlechirocenter.com,PossibleBotnetDomain
 201.149.83.179,PossibleBotnetDomain
 glimpse.com.cn,PossibleBotnetDomain
 tuyensinhv2.elo.edu.vn,PossibleBotnetDomain
@@ -1098,6 +1079,7 @@ ewallet.ci,PossibleBotnetDomain
 juliusrizaldi.co.id,PossibleBotnetDomain
 nvrehab.premimpress.com,PossibleBotnetDomain
 theptiendat.com,PossibleBotnetDomain
+mycouplegoal.com,PossibleBotnetDomain
 mobilitocell.ir,PossibleBotnetDomain
 wujianji.com,PossibleBotnetDomain
 sapibook.com,PossibleBotnetDomain
@@ -1110,10 +1092,8 @@ www.gnc.happenizedev.com,PossibleBotnetDomain
 213.7.222.78,PossibleBotnetDomain
 marinawellnesshub.com,PossibleBotnetDomain
 test4.kouixc.cn,PossibleBotnetDomain
-mofdold.ug,PossibleBotnetDomain
 marksidfgs.ug,PossibleBotnetDomain
 bratiop.ru,PossibleBotnetDomain
-opsdjs.ug,PossibleBotnetDomain
 3v6bz7g2bncvrinwmaawz2t4.file.truckbennels.com,PossibleBotnetDomain
 mfgifts.co.in,PossibleBotnetDomain
 ximengjz.cn,PossibleBotnetDomain
@@ -1136,6 +1116,7 @@ crimebranch.in,PossibleBotnetDomain
 kingsdoggy.blaucloud.de,PossibleBotnetDomain
 gitep.ucpel.edu.br,PossibleBotnetDomain
 aoujlift.ir,PossibleBotnetDomain
+tk-598.techcrim.ru,PossibleBotnetDomain
 121.169.177.87,PossibleBotnetDomain
 www.lovebing.net,PossibleBotnetDomain
 testdatabaseforcepoint.com,PossibleBotnetDomain
@@ -1160,7 +1141,6 @@ meitao886.com,PossibleBotnetDomain
 73.226.139.245,PossibleBotnetDomain
 www.mazhenkai.top,PossibleBotnetDomain
 smuconsulting.com,PossibleBotnetDomain
-78.26.189.92,PossibleBotnetDomain
 94.53.120.109,PossibleBotnetDomain
 easydown.workday360.cn,PossibleBotnetDomain
 cdn.fanyamedia.net,PossibleBotnetDomain
@@ -1217,16 +1197,17 @@ trubpelis.h1n.ru,PossibleBotnetDomain
 www.izu.co.jp,PossibleBotnetDomain
 82.81.44.203,PossibleBotnetDomain
 64.20.36.234,PossibleBotnetDomain
-leatherlites.ug,PossibleBotnetDomain
 herscare.net,PossibleBotnetDomain
 www.gamee.top,PossibleBotnetDomain
 fordlamdong.com.vn,PossibleBotnetDomain
 81.218.187.113,PossibleBotnetDomain
 telescopelms.com,PossibleBotnetDomain
+sundancedesigns.net,PossibleBotnetDomain
 wakokaeae7r.2wwzk3tpin6kc.cf,PossibleBotnetDomain
 ngoxcompany.com,PossibleBotnetDomain
 www.accessyouraudience.com,PossibleBotnetDomain
 onedrive.live.com,PossibleBotnetDomain
+cdn.isoskycn.com,PossibleBotnetDomain
 flood-protection.org,PossibleBotnetDomain
 47.187.120.184,PossibleBotnetDomain
 landmarktreks.com,PossibleBotnetDomain
@@ -1236,7 +1217,6 @@ narty.laserteam.pl,PossibleBotnetDomain
 186.34.4.40,PossibleBotnetDomain
 nexttravel.ge,PossibleBotnetDomain
 82.80.176.116,PossibleBotnetDomain
-down.allthelive.com,PossibleBotnetDomain
 down.1919wan.com,PossibleBotnetDomain
 109.104.197.153,PossibleBotnetDomain
 lashlabplus.com,PossibleBotnetDomain
@@ -1310,7 +1290,6 @@ dsneng.com,PossibleBotnetDomain
 gist.githubusercontent.com,PossibleBotnetDomain
 stoeltje.com,PossibleBotnetDomain
 190.29.102.198,PossibleBotnetDomain
-maralskds.ug,PossibleBotnetDomain
 217.8.117.22,PossibleBotnetDomain
 asdasgs.ug,PossibleBotnetDomain
 intersel-idf.org,PossibleBotnetDomain
@@ -1365,6 +1344,7 @@ hfsoftware.cl,PossibleBotnetDomain
 toolmuseum.net,PossibleBotnetDomain
 dx60.siweidaoxiang.com,PossibleBotnetDomain
 www.toolmuseum.net,PossibleBotnetDomain
+www.newxing.com,PossibleBotnetDomain
 www.vatro.cl,PossibleBotnetDomain
 177.230.61.120,PossibleBotnetDomain
 2.38.109.52,PossibleBotnetDomain
@@ -1417,6 +1397,7 @@ kitaplasalim.org,PossibleBotnetDomain
 46.72.31.77,PossibleBotnetDomain
 46.252.240.78,PossibleBotnetDomain
 181.112.33.222,PossibleBotnetDomain
+103.47.57.199,PossibleBotnetDomain
 200.6.167.42,PossibleBotnetDomain
 188.169.229.202,PossibleBotnetDomain
 185.136.193.1,PossibleBotnetDomain
@@ -1476,7 +1457,6 @@ www.mmtt.co.nz,PossibleBotnetDomain
 www.gravitychallenge.it,PossibleBotnetDomain
 hanoihub.vn,PossibleBotnetDomain
 95.170.220.206,PossibleBotnetDomain
-202.149.90.98,PossibleBotnetDomain
 103.42.252.146,PossibleBotnetDomain
 103.42.252.130,PossibleBotnetDomain
 80.89.189.34,PossibleBotnetDomain
@@ -1487,7 +1467,6 @@ hanoihub.vn,PossibleBotnetDomain
 45.165.180.249,PossibleBotnetDomain
 213.222.159.17,PossibleBotnetDomain
 188.191.29.210,PossibleBotnetDomain
-177.128.126.70,PossibleBotnetDomain
 usmlemasters.com,PossibleBotnetDomain
 kylemarketing.com,PossibleBotnetDomain
 182.160.101.51,PossibleBotnetDomain
@@ -1555,7 +1534,6 @@ luatminhthuan.com,PossibleBotnetDomain
 93.93.199.254,PossibleBotnetDomain
 89.215.174.46,PossibleBotnetDomain
 37.195.242.147,PossibleBotnetDomain
-31.44.54.110,PossibleBotnetDomain
 213.16.63.103,PossibleBotnetDomain
 195.28.15.110,PossibleBotnetDomain
 164.77.147.186,PossibleBotnetDomain
@@ -1607,7 +1585,6 @@ americanamom.com,PossibleBotnetDomain
 83.234.147.99,PossibleBotnetDomain
 82.211.156.38,PossibleBotnetDomain
 81.31.230.250,PossibleBotnetDomain
-81.23.187.38,PossibleBotnetDomain
 81.16.240.178,PossibleBotnetDomain
 81.15.197.40,PossibleBotnetDomain
 80.76.236.66,PossibleBotnetDomain
@@ -1625,6 +1602,7 @@ americanamom.com,PossibleBotnetDomain
 45.114.68.156,PossibleBotnetDomain
 43.240.80.66,PossibleBotnetDomain
 41.77.175.70,PossibleBotnetDomain
+41.215.247.183,PossibleBotnetDomain
 41.204.79.18,PossibleBotnetDomain
 41.190.70.238,PossibleBotnetDomain
 37.29.67.145,PossibleBotnetDomain
@@ -1682,6 +1660,7 @@ americanamom.com,PossibleBotnetDomain
 159.255.165.210,PossibleBotnetDomain
 158.174.218.196,PossibleBotnetDomain
 154.126.178.16,PossibleBotnetDomain
+147.91.212.250,PossibleBotnetDomain
 144.139.171.97,PossibleBotnetDomain
 144.136.155.166,PossibleBotnetDomain
 14.102.17.222,PossibleBotnetDomain
@@ -1799,7 +1778,6 @@ suc9898.com,PossibleBotnetDomain
 83.234.147.166,PossibleBotnetDomain
 81.5.101.25,PossibleBotnetDomain
 81.201.63.40,PossibleBotnetDomain
-79.8.70.162,PossibleBotnetDomain
 78.69.48.163,PossibleBotnetDomain
 77.120.85.182,PossibleBotnetDomain
 62.140.224.186,PossibleBotnetDomain
@@ -1846,7 +1824,6 @@ suc9898.com,PossibleBotnetDomain
 178.19.183.14,PossibleBotnetDomain
 177.67.8.11,PossibleBotnetDomain
 177.54.82.154,PossibleBotnetDomain
-177.38.1.181,PossibleBotnetDomain
 177.137.206.110,PossibleBotnetDomain
 176.12.117.70,PossibleBotnetDomain
 176.120.189.131,PossibleBotnetDomain
@@ -1891,7 +1868,6 @@ suc9898.com,PossibleBotnetDomain
 190.144.96.181,PossibleBotnetDomain
 112.78.45.158,PossibleBotnetDomain
 49.156.35.118,PossibleBotnetDomain
-190.186.56.84,PossibleBotnetDomain
 181.112.218.6,PossibleBotnetDomain
 177.72.2.186,PossibleBotnetDomain
 74.113.230.55,PossibleBotnetDomain
@@ -2031,7 +2007,6 @@ besttasimacilik.com.tr,PossibleBotnetDomain
 108.190.31.236,PossibleBotnetDomain
 sdorf.com.br,PossibleBotnetDomain
 share.meerai.eu,PossibleBotnetDomain
-80.210.19.69,PossibleBotnetDomain
 newabidgoods.com,PossibleBotnetDomain
 instagram.meerai.eu,PossibleBotnetDomain
 status.delivup.com,PossibleBotnetDomain
@@ -2550,6 +2525,7 @@ incredicole.com,PossibleBotnetDomain
 thaisell.com,PossibleBotnetDomain
 dx73.downyouxi.com,PossibleBotnetDomain
 jiaxinsheji.com,PossibleBotnetDomain
+wt72.downyouxi.com,PossibleBotnetDomain
 dx25.downyouxi.com,PossibleBotnetDomain
 211.228.249.197,PossibleBotnetDomain
 zmmore.com,PossibleBotnetDomain
@@ -2743,7 +2719,6 @@ down.softlist.tcroot.cn,PossibleBotnetDomain
 bmstu-iu9.github.io,PossibleBotnetDomain
 125.136.94.85,PossibleBotnetDomain
 75.55.248.20,PossibleBotnetDomain
-d9.driver.160.com,PossibleBotnetDomain
 d8.driver.160.com,PossibleBotnetDomain
 dl-gameplayer.dmm.com,PossibleBotnetDomain
 chinhdropfile.myvnc.com,PossibleBotnetDomain
@@ -2810,12 +2785,12 @@ dawaphoto.co.kr,PossibleBotnetDomain
 hanaphoto.co.kr,PossibleBotnetDomain
 89.122.126.17,PossibleBotnetDomain
 173.169.46.85,PossibleBotnetDomain
+www.dgnj.cn,PossibleBotnetDomain
 dgnj.cn,PossibleBotnetDomain
 79.2.211.133,PossibleBotnetDomain
 dx71.downyouxi.com,PossibleBotnetDomain
 wt71.downyouxi.com,PossibleBotnetDomain
 down7.downyouxi.com,PossibleBotnetDomain
-wt72.downyouxi.com,PossibleBotnetDomain
 www.hldschool.com,PossibleBotnetDomain
 www.moha-group.com,PossibleBotnetDomain
 amd.alibuf.com,PossibleBotnetDomain
@@ -2837,7 +2812,6 @@ dx112.downyouxi.com,PossibleBotnetDomain
 down11.downyouxi.com,PossibleBotnetDomain
 dx62.downyouxi.com,PossibleBotnetDomain
 wt61.downyouxi.com,PossibleBotnetDomain
-www.newxing.com,PossibleBotnetDomain
 wt110.downyouxi.com,PossibleBotnetDomain
 dosame.com,PossibleBotnetDomain
 xiaou-game.xugameplay.com,PossibleBotnetDomain
@@ -2873,9 +2847,10 @@ config.wwmhdq.com,PossibleBotnetDomain
 config.wulishow.top,PossibleBotnetDomain
 down.soft.hyzmbz.com,PossibleBotnetDomain
 down.softlist.hyzmbz.com,PossibleBotnetDomain
-cdn-10049480.file.myqcloud.com,PossibleBotnetDomain
 wt90.downyouxi.com,PossibleBotnetDomain
+cdn-10049480.file.myqcloud.com,PossibleBotnetDomain
 103.51.249.64,PossibleBotnetDomain
+wt92.downyouxi.com,PossibleBotnetDomain
 teramed.com.co,PossibleBotnetDomain
 www.teramed.com.co,PossibleBotnetDomain
 www.cnim.mx,PossibleBotnetDomain
@@ -2896,8 +2871,8 @@ flex.ru,PossibleBotnetDomain
 tonghopgia.net,PossibleBotnetDomain
 kuaizip.com,PossibleBotnetDomain
 200.2.161.171,PossibleBotnetDomain
-www.softhy.net,PossibleBotnetDomain
 dx111.downyouxi.com,PossibleBotnetDomain
+www.softhy.net,PossibleBotnetDomain
 pat4.qpoe.com,PossibleBotnetDomain
 download.fsyuran.com,PossibleBotnetDomain
 5.201.142.118,PossibleBotnetDomain
@@ -2972,6 +2947,7 @@ www.shermancohen.com,PossibleBotnetDomain
 82.80.143.205,PossibleBotnetDomain
 190.7.27.69,PossibleBotnetDomain
 svn.cc.jyu.fi,PossibleBotnetDomain
+kdjf.guzaosf.com,PossibleBotnetDomain
 www.monumentcleaning.co.uk,PossibleBotnetDomain
 88.249.120.216,PossibleBotnetDomain
 141.226.28.195,PossibleBotnetDomain
@@ -3008,6 +2984,7 @@ rkverify.securestudies.com,PossibleBotnetDomain
 down.kuwo.cn,PossibleBotnetDomain
 down.ancamera.co.kr,PossibleBotnetDomain
 osdsoft.com,PossibleBotnetDomain
+ftpcnc-p2sp.pconline.com.cn,PossibleBotnetDomain
 attach.66rpg.com,PossibleBotnetDomain
 ygzx.hbu.cn,PossibleBotnetDomain
 down1.arpun.com,PossibleBotnetDomain
@@ -3046,6 +3023,7 @@ ftp.doshome.com,PossibleBotnetDomain
 down1.greenxf.com,PossibleBotnetDomain
 ak.imgfarm.com,PossibleBotnetDomain
 180.153.105.169,PossibleBotnetDomain
+down.wlds.net,PossibleBotnetDomain
 ld.mediaget.com,PossibleBotnetDomain
 cbup1.cache.wps.cn,PossibleBotnetDomain
 javatank.ru,PossibleBotnetDomain
